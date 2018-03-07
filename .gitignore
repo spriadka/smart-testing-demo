@@ -1,0 +1,11 @@
+
+# Smart Testing Exclusions
+.smart-testing/
+
+# Idea
+.idea/
+*.iml
+
+# Builds
+
+target/

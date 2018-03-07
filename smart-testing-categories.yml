@@ -1,0 +1,5 @@
+strategies: categorized
+strategiesConfiguration:
+  categorized:
+    categories: Included
+    excludedCategories: Excluded
