@@ -16,6 +16,7 @@ public class StringCombiner {
     }
 
     public String apply() {
+
         return this.operations.stream().reduce(targetString, (s, stringUnaryOperator) -> stringUnaryOperator.apply(s), (s, s2) -> s2);
     }
 }
